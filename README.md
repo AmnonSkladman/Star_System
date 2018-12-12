@@ -15,6 +15,6 @@ Right now, I am working on adding all the planets to the solar system and implem
 1. Clone the repo.
 2. Run `npm install` inside the repo.
 3. Run the server:
- * For development, use `npm run dev`.
- * For production, use `npm run build` followed by `npm run start`.
+    * For development, use `npm run dev`.
+    * For production, use `npm run build` followed by `npm run start`.
 4. Have fun!
