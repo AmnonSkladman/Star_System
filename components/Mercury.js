@@ -7,7 +7,7 @@ export default () => (
     <div className="Mercury" id="Mercury" />
     <style jsx>{`
       animation-name: spin;
-      animation-duration: 8000ms;
+      animation-duration: 7000ms;
       animation-iteration-count: infinite;
       animation-timing-function: linear;
 
