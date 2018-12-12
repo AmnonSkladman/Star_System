@@ -1,0 +1,20 @@
+{
+  "name": "star_system",
+  "version": "0.1.1",
+  "description": "An interactive star system build in NextJS, among other fun little libraries.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "SET NODE_ENV=production & node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "next": "^7.0.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  }
+}
