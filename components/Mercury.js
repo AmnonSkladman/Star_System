@@ -1,3 +1,7 @@
+import { sunSize } from './Sun';
+
+const size = '10px';
+
 export default () => (
   <div>
     <div className="Mercury" id="Mercury" />
@@ -24,11 +28,12 @@ export default () => (
       }
 
       .Mercury {
-        background-color: darkgrey;
+        background-image: radial-gradient(silver, grey, darkgrey);
         border-radius: 50%;
-        margin: auto 68% auto auto;
-        height: 10px;
-        width: 10px;
+        height: ${size};
+        left: calc(${sunSize} + 50px);
+        margin: auto;
+        width: ${size};
       }
     `}</style>
   </div>

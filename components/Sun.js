@@ -1,3 +1,5 @@
+export const sunSize = '400px';
+
 export default () => (
   <div>
     <style jsx>{`
@@ -5,16 +7,16 @@ export default () => (
       animation-duration: 1000ms;
       animation-iteration-count: infinite;
       animation-timing-function: linear;
-      background-color: lightyellow;
+      background-image: radial-gradient(lightyellow, moccasin, gold);
       border-radius: 50%;
       bottom: 0;
-      height: 500px;
+      height: ${sunSize};
       left: 0;
       margin: auto;
       position: absolute;
       right: 0;
       top: 0;
-      width: 500px;
+      width: ${sunSize};
 
       @keyframes spin {
         from {
