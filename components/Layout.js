@@ -21,6 +21,7 @@ const Layout = props => (
           color: white;
           font-family: Lato, sans-serif;
           font-size: 10px;
+          height: ${window.innerHeight}px;
           margin: 0;
           padding: 2rem;
           max-width: 100vw;
