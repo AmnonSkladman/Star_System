@@ -1,7 +1,7 @@
 {
-  "name": "hello-next",
-  "version": "1.0.0",
-  "description": "",
+  "name": "star_system",
+  "version": "0.1.1",
+  "description": "An interactive star system build in NextJS, among other fun little libraries.",
   "main": "index.js",
   "scripts": {
     "dev": "node server.js",
