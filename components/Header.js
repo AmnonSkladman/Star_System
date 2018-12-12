@@ -1,17 +1,28 @@
 import Link from 'next/link';
 
-const linkStyle = {
-  marginRight: 15
-};
-
 const Header = () => (
   <div>
     <Link href="/">
-      <a style={linkStyle}>Home</a>
+      <a>Home</a>
     </Link>
     <Link href="/about">
-      <a style={linkStyle}>About</a>
+      <a>About</a>
     </Link>
+    <style jsx global>
+      {`
+        a {
+          color: white;
+          font-size: 1rem;
+          padding: 1rem;
+          text-decoration: none;
+          transition: ease-in-out 0.25s;
+        }
+
+        a:hover {
+          color: silver;
+        }
+      `}
+    </style>
   </div>
 );
 
