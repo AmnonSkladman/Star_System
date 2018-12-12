@@ -9,3 +9,12 @@ This is honestly mostly a personal project for myself. It's a good way to keep p
 # Road Map
 
 Right now, I am working on adding all the planets to the solar system and implement relatively accurate orbital speeds and planet sizing. After that, I am going to work on adding onClick events that would show pop-ups with useful information on the planets. Not really sure what else I'm going to add yet. If you have any ideas, please let me know!
+
+# Instructions
+
+1. Clone the repo.
+2. Run `npm install` inside the repo.
+3. Run the server:
+  * For development, use `npm run dev`.
+  * For production, use `npm run build` followed by `npm run start`.
+4. Have fun!
