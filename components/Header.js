@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 const Header = () => (
-  <div>
+  <div id="header">
     <Link href="/">
       <a>Home</a>
     </Link>
@@ -20,6 +20,12 @@ const Header = () => (
 
         a:hover {
           color: silver;
+        }
+
+        #header {
+          padding-bottom: 1rem;
+          position: relative;
+          z-index: 6000;
         }
       `}
     </style>
