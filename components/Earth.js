@@ -1,13 +1,14 @@
 import { sunSize } from './Sun';
 
-const size = '31px';
+export const earthOrbit = 50000;
+export const earthSize = 30;
 
 export default () => (
   <div>
     <div className="Earth" id="Earth" />
     <style jsx>{`
       animation-name: spin;
-      animation-duration: 7900ms;
+      animation-duration: ${earthOrbit}ms;
       animation-iteration-count: infinite;
       animation-timing-function: linear;
 
@@ -30,10 +31,10 @@ export default () => (
       .Earth {
         background-image: radial-gradient(darkblue, midnightblue);
         border-radius: 50%;
-        height: ${size};
+        height: ${earthSize}px;
         left: calc(${sunSize} + 170px);
         margin: auto;
-        width: ${size};
+        width: ${earthSize}px;
       }
     `}</style>
   </div>
