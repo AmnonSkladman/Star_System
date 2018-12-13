@@ -4,7 +4,7 @@ import Header from './Header';
 const Layout = props => (
   <div>
     <Head>
-      <meta charset="utf-8" />
+      <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <link
         rel="stylesheet"
@@ -21,6 +21,9 @@ const Layout = props => (
           color: white;
           font-family: Lato, sans-serif;
           font-size: 10px;
+          height: ${typeof window !== 'undefined'
+            ? `${window.innerHeight}px`
+            : '100vh'};
           margin: 0;
           padding: 2rem;
           max-width: 100vw;

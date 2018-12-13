@@ -1,14 +1,14 @@
 import { sunSize } from './Sun';
-import { earthOrbitRelative, earthSizeRelative } from '../utils/calculations';
 
-const size = `${earthSizeRelative(38.3)}px`;
+export const earthOrbit = 50000;
+export const earthSize = 30;
 
 export default () => (
   <div>
-    <div className="Mercury" id="Mercury" />
+    <div className="Earth" id="Earth" />
     <style jsx>{`
       animation-name: spin;
-      animation-duration: ${earthOrbitRelative(24.11)}ms;
+      animation-duration: ${earthOrbit}ms;
       animation-iteration-count: infinite;
       animation-timing-function: linear;
 
@@ -28,13 +28,13 @@ export default () => (
         }
       }
 
-      .Mercury {
-        background-image: radial-gradient(silver, grey, darkgrey);
+      .Earth {
+        background-image: radial-gradient(darkblue, midnightblue);
         border-radius: 50%;
-        height: ${size};
-        left: calc(${sunSize} + 50px);
+        height: ${earthSize}px;
+        left: calc(${sunSize} + 170px);
         margin: auto;
-        width: ${size};
+        width: ${earthSize}px;
       }
     `}</style>
   </div>
