@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@material-ui/core": "^3.9.3",
     "@zeit/next-sass": "^1.0.1",
     "express": "^4.16.4",
     "next": "^7.0.2",
